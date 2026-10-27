@@ -1,0 +1,37 @@
+# CLion & JetBrains IDE
+.idea/
+cmake-build-*/
+*.cbp
+*.user
+
+# Build outputs & executables
+bin/
+build/
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.obj
+*.o
+
+# Qt & Auto-generated
+*_autogen/
+*.qm
+*.qrc
+qrc_*.cpp
+ui_*.h
+moc_*.cpp
+
+# Large third party libraries & zip archives
+third_party/*.zip
+third_party/onnxruntime/
+models_ai/*.onnx
+
+# Temporary logs & cache
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
